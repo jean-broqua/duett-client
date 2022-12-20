@@ -1,5 +1,9 @@
+import { ItemListScreen } from '../components/ItemListScreen';
+
 export function Index() {
   return (
-    <div></div>
-  )
+    <div>
+      <ItemListScreen />
+    </div>
+  );
 }
